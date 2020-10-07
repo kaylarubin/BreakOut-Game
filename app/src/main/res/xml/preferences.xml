@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="BreakOut Game Preferences ">
+
+        <EditTextPreference
+            android:defaultValue="5"
+            android:inputType="number"
+            android:key="initialBrickCount"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="How many bricks per level"
+            android:title="Initial Brick Count (1-100)" />
+        <com.example.projectbreakout.NumberPickerPreference
+            android:defaultValue="1"
+            android:key="hitsToRemoveBrick"
+            android:summary="How many hits are required to remove a brick"
+            android:title="Hits to Remove Brick (1-4)"
+            custom:max="4"
+            custom:min="1"
+            custom:wrap="false" />
+        <com.example.projectbreakout.NumberPickerPreference
+            android:defaultValue="3"
+            android:key="ballsPerLevel"
+            android:summary="How many balls you get"
+            android:title="Balls Per Level (1-4)"
+            custom:max="4"
+            custom:min="1"
+            custom:wrap="false" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,2 @@
+rootProject.name='ProjectBreakOut'
+include ':app'

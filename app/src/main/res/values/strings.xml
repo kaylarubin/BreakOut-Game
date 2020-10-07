@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BreakOut</string>
+    <string name="about_string">About</string>
+    <string name="game_stats">Level=1 Balls=3 Score=0 Bricks=100</string>
+</resources>

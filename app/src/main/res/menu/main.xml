@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_about"
+        android:onClick="onAbout"
+        android:title="@string/about_string"
+        app:showAsAction="never" />
+    <item
+        android:onClick="onSettings"
+        android:title="Settings" />
+</menu>
